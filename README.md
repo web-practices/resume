@@ -1,5 +1,7 @@
 # 欢迎来到Github Pages在线简历制作
 
+![resume](https://cdn.u1.huluxia.com/g4/M01/42/67/rBAAdl7LTA-AdJVaAAIJCBaPehw207.jpg)
+
 此在线简历基于Github pages搭建，您只需要简单修改几个文件，便可以达到上面的效果！
 
 ## 开始制作在线简历
