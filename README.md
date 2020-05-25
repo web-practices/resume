@@ -1,37 +1,56 @@
-## Welcome to GitHub Pages
+# 欢迎来到Github Pages在线简历制作
 
-You can use the [editor on GitHub](https://github.com/js-practise-collection/resume/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+此在线简历基于Github pages搭建，您只需要简单修改几个文件，便可以达到上面的效果！
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 开始制作在线简历
 
-### Markdown
+### Step1: Fork本仓库到你自己的Github账户下面。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![fork](https://cdn.u1.huluxia.com/g4/M02/42/5B/rBAAdl7LRa6ARxB1AAMkKCVXJeM038.jpg)
 
-```markdown
-Syntax highlighted code block
+### Step2: Clone你前一步Fork到你Github下面的仓库到你本地。
 
-# Header 1
-## Header 2
-### Header 3
+使用`git clone [respository url]`, 仓库地址如下：
 
-- Bulleted
-- List
+![git clone](https://cdn.u1.huluxia.com/g4/M03/42/5C/rBAAdl7LRnSAXCh-AAQE8eSkW30591.jpg)
 
-1. Numbered
-2. List
+### Step3：进入到你本地仓库的目录，修改配置文件`_config.yml`. 后保存提交到远程仓库。
 
-**Bold** and _Italic_ and `Code` text
+主要修改以下内容：
 
-[Link](url) and ![Image](src)
+```yaml
+# 你的求职方向，比如：前端开发工程师等
+title: 前端开发工程师等
+# 你的美照地址
+logo: asserts/images/me.jpg
+# 你的名字
+name: 张三
+# 你的联系方式
+phone: 188888888888
+# 你的邮箱
+email: LeBron@unkown.com
+# 你目前的住址
+address: 北京中南海
+# 你毕业院校
+school: 清华大学
+# 你的专业
+profession: 国际贸易与经济
+# 你的学位
+degree: 硕士学位
+# 你获得过的证书或奖励
+credential: 英语六级/计算机三级
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Step4: 进入到你本地仓库的目录，在`index.md`里面书写自己的简历，内容可以包括：基本技能，工作经历，个人特色，完成之后保存提交到远程仓库。
 
-### Jekyll Themes
+### Step5：打开Github仓库的设置里面，找到`GitHub Pages`设置，选择source为Master branch，选择主题为`Minimal theme`，选择应用该主题即可。
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/js-practise-collection/resume/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+![github setting](https://cdn.u1.huluxia.com/g4/M01/42/60/rBAAdl7LSIyAInOuAAKnUzfjVwE878.jpg)
 
-### Support or Contact
+![github pages setting](https://cdn.u1.huluxia.com/g4/M01/42/61/rBAAdl7LSRuAT6WxAALIe_pp8_U321.jpg)
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![github pages theme](https://cdn.u1.huluxia.com/g4/M03/42/62/rBAAdl7LSZqAI3SgAAHuLLyntzA934.jpg)
+
+### Step6: 复制生成的Github pages URL，预览你的简历效果
+
+![github pages url](https://cdn.u1.huluxia.com/g4/M02/42/63/rBAAdl7LSk6AL8eWAAKMCX8cT0M164.jpg)
