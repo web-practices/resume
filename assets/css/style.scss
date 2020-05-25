@@ -1,0 +1,86 @@
+---
+---
+
+@import 'jekyll-theme-minimal';
+
+.body-theme {
+  padding: 10px 50px;
+}
+
+.font {
+  font-family: STXingkai, STKaiti, Arial, Helvetica, sans-serif;
+}
+
+.card-title {
+  margin: 0px;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+.card-item {
+  margin: 0px;
+  padding: 3px 10px;
+}
+
+.bg-gray {
+  background-color: #f8f9fa !important;
+}
+
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.rounded {
+  border-radius: 0.25rem !important;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin-top: 10px;
+}
+
+.section {
+  width: 560px;
+  padding: 0px;
+}
+
+.section h1 {
+  margin: 0px;
+  padding: 8px 0px;
+  background-color: rgba(71, 70, 70, 0.03);
+}
+
+.section h2 {
+  margin: 0px;
+  padding: 5px 5px;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgb(71, 72, 73);
+  border-top: 1px solid rgb(71, 72, 73);
+}
+
+.section h3 {
+  margin: 0px;
+  padding: 3px 10px;
+}
+
+.section h4 {
+  margin: 0px;
+  padding: 2px 15px;
+}
+
+.section p {
+  margin: 0px;
+  padding: 0px 15px;
+}
+
+hr {
+  margin: 0px;
+  border-color: #343a40 !important;
+}
